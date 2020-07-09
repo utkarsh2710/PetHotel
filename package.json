@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/Aks1307/PetHotel/issues"
   },
-  "homepage": "https://github.com/Aks1307/PetHotel#readme"
+  "homepage": "https://github.com/Aks1307/PetHotel#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "firebase": "^7.15.5"
+  }
 }

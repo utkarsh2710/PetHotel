@@ -1,0 +1,12 @@
+{
+    "type": "service_account",
+    "project_id": "pethotel-e7d26",
+    "private_key_id": "a7ee694e776d61b82a9c503da806d52e1341c98f",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQChqBqzDvMbZI3O\nwqYdKGyUczGr2Vvd88nddBStjsAIWF9Y4uf23WxO5e5X8mx3Bl2XnmUelj5cJkbt\nBOu9I9rOfo4NiFBlpJlEHbPPnEbnzWvjM58oSdAPVeJ5ZwtrIw0XfxhW694ky13X\nxYqgOC84a4FCJ+9eIpNsyrLtwgKPqWXy1PZldJgVLvVcsab1p/5hdqAB84n0jUr/\nYsxldeXXvoh6wtRhlXy7ofMfoKKKFVxFM9q8Du4YjcWTLmuYyW0kZUQjdvVqXt8G\nyf8Ut8YrfU9ce8Dr+J68ph/LxWDOOaTPJixvteEZb/tQIbr/sVUp8Jd0Qpmko8bp\no8DsYdWvAgMBAAECggEAKXWbo2CqKNRZKjXxtHixoEEK9DACx6HGm+0xgHGj/n/r\ntDg9laqkJHgD8LpT5xLS3hfZh0axJ6EJf7BLZW7UpzD97aqQNAFK7ZVQkGZcKQce\nLF8I6qRDoCs+sjQjUY7jxKrr6x8DEhy2LKiVLRI7yhSIShdD5LipZrV1vlSLo5w9\n3DTkjPdn5mg+1QLEyG4llMPejX97al60Duic4S8DaC2YydX5t7n8L7pehDKbMll6\nIGyWcEaqouvdVXSzPz+JEixU1NtMK09+ScKaQgs1cGOeoFVg4JZH627ywH65Y/tA\nQZhJsrwWfisEQEOplUKn3ep4VkyKJZg4tFhk9gyIgQKBgQDZitaq1VeJHDBBLV5t\nXk5vU1GJXPb9lNmj+2P/BbQpYlP9tEndmlNmhzAWm5uZDys9+Hdo+2Nic/wL+/F1\nuV08F3tFpwxyQoDGXE9IuDVQkALsytBbW9SkGDHYUG1cMw3zHWkKOLEfNKsR9ITD\nbsigkML+nQLu1z4YlzS3LvNk+QKBgQC+PBYqZG6fJpA7HGoa1kzLkZhtQbYbZMl8\npjlaUsgfxqwz6D4uAoqGpLAHq9ixrMztxpo5BRH5Zw85JOo3PorkYgCsOKrU76Pz\ne8xpCi4HCZyEYdg3x5f4Leoh9iSR6Dqd4Z3E1ZMtcy9eZxFspY7yu0J1nYp5bAFt\nTuIpzzLB5wKBgQC85Itlpv3tNibIUWauvLaKf+RKzAhDRB5+/uhjJka7sH+Ryhxh\naYGFg1lEKDXBf6RimP7Gj5JKiL+QgGG3gQ7uAM2vO0/ZXtmGY90MHbddjs6bYbft\nvB01pzSQybVL26D/OshcccGKgScR3inxsJ5QnaJTh25miUuH+rNxZDk/sQKBgG41\nwWGt7aimXsjgHViO7s7A+t3RQ/961IAyjOeXLfm6z+kCk4N0VWzL3G+VT2UgB1l5\nxb9jAJbM7jTc/hQjV7QYUutzqQTUENfu0O3JyACrwNGxHeKy74gIkaw7PdSKBeuR\n2iU+1pVuNfMrIx0ejUJy2n3pV2AhAnKhUMWIFI/hAoGAOSoN/orU6cCBZEeQR5lI\nQBpr9fEdBXJnryaHks1KY8LZ/l6R8HAlB7V6hg0OSp3eDCIJ6jkd6nxMXhbCBMM6\nNrTG9tKW3UQSrPgRrlwlq1r82jCbQOQ5WIAXqCLMqz6HYN/GDqvGQfgLK4GRbbVI\nIW6TtjDfzxX02gqI0GXubUo=\n-----END PRIVATE KEY-----\n",
+    "client_email": "firebase-adminsdk-7r9h9@pethotel-e7d26.iam.gserviceaccount.com",
+    "client_id": "118185599939095079109",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-7r9h9%40pethotel-e7d26.iam.gserviceaccount.com"
+  }
