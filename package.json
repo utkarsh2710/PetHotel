@@ -1,0 +1,19 @@
+{
+  "name": "pethotel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aks1307/PetHotel.git"
+  },
+  "author": "Aks",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aks1307/PetHotel/issues"
+  },
+  "homepage": "https://github.com/Aks1307/PetHotel#readme"
+}
