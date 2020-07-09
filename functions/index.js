@@ -1,9 +1,43 @@
 const functions = require('firebase-functions');
 
-// // Create and Deploy Your First Cloud Functions
-// // https://firebase.google.com/docs/functions/write-firebase-functions
-//
-// exports.helloWorld = functions.https.onRequest((request, response) => {
-//   functions.logger.info("Hello logs!", {structuredData: true});
-//   response.send("Hello from Firebase!");
-// });
+const express = require('express');
+const app = express();
+const {
+    db,
+    admin
+} = require('./util/admin')
+
+const config = require('./util/config')
+const firebase = require('firebase');
+firebase.initializeApp(config);
+
+app.get('/user',(req,res) => {
+    db.collection('users')
+    .get()
+    .then((data) =>{
+        let user = [];
+        data.forEach((doc)=>{
+            user.push(doc.data());
+        })
+        return res.json(user);
+    })  
+    .catch((err)=> console.error(err));
+})
+app.post('/user',(req,res)=>{
+    const newUser = {
+        name : req.body.name,
+        email : req.body.email,
+        phone : req.body.phone
+    };
+    db.collection('users')
+    .add(newUser)
+    .then((doc)=>{
+        res.json({message : `document ${doc.id} created`});
+    })
+    .catch((err)=>{
+        res.status(500).json({error : "something went wrong "})
+        console.error(err);
+    });
+})
+exports.api = functions.https.onRequest(app);
+>>>>>>> 4fab565a67978ca7ea2aa084cdafc3bbd0c8a768
