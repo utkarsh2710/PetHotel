@@ -7,10 +7,20 @@ const {
     admin
 } = require('./util/admin')
 
-const config = require('./util/config')
-const firebase = require('firebase');
-firebase.initializeApp(config);
+const {
+    signUp,
+    login
+} = require('./handlers/user');
 
+
+
+
+//login signup routes
+app.post('/signUp',signUp);
+app.post('/login/',login);
+
+
+HEAD
 app.get('/user',(req,res) => {
     db.collection('users')
     .get()
@@ -40,4 +50,5 @@ app.post('/user',(req,res)=>{
     });
 })
 exports.api = functions.https.onRequest(app);
+
 
